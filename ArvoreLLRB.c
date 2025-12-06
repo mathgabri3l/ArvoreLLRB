@@ -21,7 +21,7 @@ struct NO{
 //int x = remove_ArvLLRB(raiz,valor);
 typedef struct NO* ArvLLRB;
 
-//Protótipos das Funções Auxiliares (Para resolver 'implicit declaration')
+//Protótipos das Funções Auxiliares
 int cor(struct NO* H);
 void trocaCor(struct NO* H);
 struct NO* rotacionaEsquerda(struct NO* A);
